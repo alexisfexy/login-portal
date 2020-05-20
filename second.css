@@ -1,8 +1,26 @@
+/* 
+
+TITLE: #333333;
+GENERAL : #555555
+BACKDROP:  f2f2f2
+LOGIN BUTTON: 
+background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  background: linear-gradient(left, #21d4fd, #b721ff);
+*/
+
+.login-body {
+    background-color: #f2f2f2;
+}
+
 .col.login-col {
     padding: 100px;
 }
 
 .card.login-card {
+    background-color: white;
     width: 390px;
 }
 
