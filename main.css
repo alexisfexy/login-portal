@@ -3,13 +3,20 @@ body.signin-body {
 }
 
 .container.signin-container {
-  margin-top: 8%;
+  margin-top: 8%; 
 }
 
+input {
+  border: none;
+  outline: none;
+
+
+
+}
 .card.signin-card {
   /* padding: 40px 0px 20px;
   background-color: white; */
-  
+
   width: 390px;
   background: #fff;
   border-radius: 10px;
@@ -48,6 +55,26 @@ a.create-new-account {
   margin-top: 15px;
 }
 
+span.password-eye{
+  position: absolute;
+  right: 15px;
+  transform: translate(0, -50%);
+  top: 50%;
+  cursor: pointer;
+}
+
+.fa{
+  position: absolute; 
+  right: 10px; 
+  top: 109px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #9999;
+}
+
+.fa.active{
+  color: dodgerblue;
+}
 
 
 
