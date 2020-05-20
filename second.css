@@ -23,13 +23,19 @@ background: #6a7dfe;
     padding-top: 2rem;
     background-color: white;
     width: 30rem;
+    top: 30%;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+
 }
 
 .horizontal-centered {
     position: fixed;
     top: 20%;
     left: 50%;
-    /* bring your own prefixes */
     transform: translate(-50%, -50%);
   }
 
@@ -48,5 +54,6 @@ background: #6a7dfe;
       margin-right:auto;
       padding-top: 10px;
       padding-bottom: 48px;
-      width: 50%;
+      width: auto;
+      height: 9rem;
   }
