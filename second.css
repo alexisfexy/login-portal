@@ -1,0 +1,82 @@
+/* 
+TITLE: #333333;
+GENERAL : #555555
+BACKDROP:  f2f2f2
+LOGIN BUTTON: 
+background: #6a7dfe;
+  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  background: -o-linear-gradient(left, #21d4fd, #b721ff);
+  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  background: linear-gradient(left, #21d4fd, #b721ff);
+*/
+
+.login-body {
+    background-color: #f2f2f2;
+}
+
+.col.login-col {
+    padding: 100px;
+}
+
+.card.login-card {
+    padding-top: 2rem;
+    background-color: white;
+    width: 25rem;
+    top: 50%;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.horizontal-centered {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .login-title {
+    display: block;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+
+  #logo {
+      display: block;
+      margin-left: auto;
+      margin-right:auto;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      width: auto;
+      height: 9rem;
+  }
+  
+  /* .login-form- {
+      color: red;
+  } */
+
+  .form-control {
+      /* padding-bottom: 2rem; */
+      border: none;
+      border-bottom: solid #555555 1px;
+  }
+
+  .card-body.login-card-body {
+      width: 20rem;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  #login-button-area {
+      padding-top: 2rem
+  }
+
+  #forgot-password {
+      padding-top: 10rem
+  }

@@ -6,12 +6,10 @@ body.signin-body {
   margin-top: 8%; 
 }
 
-input {
+ #email-input, #pwd {
   border: none;
   outline: none;
-
-
-
+  border-bottom: 1px solid grey;
 }
 .card.signin-card {
   /* padding: 40px 0px 20px;
@@ -65,9 +63,9 @@ span.password-eye{
 
 .fa{
   position: absolute; 
-  right: 10px; 
+  right: 50px; 
   top: 109px;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
   color: #9999;
 }
@@ -75,6 +73,7 @@ span.password-eye{
 .fa.active{
   color: dodgerblue;
 }
+
 
 
 
