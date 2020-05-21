@@ -1,5 +1,4 @@
 /* 
-
 TITLE: #333333;
 GENERAL : #555555
 BACKDROP:  f2f2f2
@@ -22,8 +21,8 @@ background: #6a7dfe;
 .card.login-card {
     padding-top: 2rem;
     background-color: white;
-    width: 30rem;
-    top: 30%;
+    width: 25rem;
+    top: 50%;
     box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -52,8 +51,32 @@ background: #6a7dfe;
       display: block;
       margin-left: auto;
       margin-right:auto;
-      padding-top: 10px;
-      padding-bottom: 48px;
+      padding-top: 20px;
+      padding-bottom: 40px;
       width: auto;
       height: 9rem;
+  }
+  
+  /* .login-form- {
+      color: red;
+  } */
+
+  .form-control {
+      /* padding-bottom: 2rem; */
+      border: none;
+      border-bottom: solid #555555 1px;
+  }
+
+  .card-body.login-card-body {
+      width: 20rem;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  #login-button-area {
+      padding-top: 2rem
+  }
+
+  #forgot-password {
+      padding-top: 10rem
   }
