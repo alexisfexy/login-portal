@@ -1,130 +1,110 @@
-/* 
-LETTER THE LAWN INFO:
-LETTER: #CD3471
-BLUE BACKGROUND:#50BDEF
-GREEN GRASS: #07843A
-PURPLE THE: #803275
-
-
-
-
-TITLE: #333333;
-GENERAL : #555555
-BACKDROP:  f2f2f2
-LOGIN BUTTON: 
-
-
-
-background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
-  background: -o-linear-gradient(left, #21d4fd, #b721ff);
-  background: -moz-linear-gradient(left, #21d4fd, #b721ff);
-  background: linear-gradient(left, #21d4fd, #b721ff);
-*/
-
-.login-body {
-    background-color: #f2f2f2;
-    color: #555555;
+body.signin-body {
+  background-color: #d3d3d3;
 }
 
-.col.login-col {
-    padding: 100px;
+.container.signin-container {
+  margin-top: 8%; 
 }
 
-.card.login-card {
-    padding-top: 2rem;
-    background-color: white;
-    width: 25rem;
-    top: 50%;
-    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+ #email-input, #pwd {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+.card.signin-card {
+  /* padding: 40px 0px 20px;
+  background-color: white; */
 
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px 55px;
+
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.horizontal-centered {
-    position: fixed;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+img.signin-img {
+  padding: 0 2rem 2rem;
+  margin: auto;
+  display: block;
+}
 
-  /* .login-title {
-    display: block;
-    font-size: 30px;
-    color: #333333;
-    line-height: 1.2;
-    text-align: center;
-  } */
+form.sigin-form {
+  max-width: 350px;
+  margin: auto;
+}
 
+button.signin-btn {
+  color: #ffffff;
+  background-color: #D22681;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
 
-  #logo {
-      display: block;
-      margin-left: auto;
-      margin-right:auto;
-      width: auto;
-      height: 10rem;
-  }
-  
-  
-  #login-form {
-      display: block;
-      text-align: center;
-      padding-top: 4rem;
+a.create-new-account {
+  font-size: 1.2rem;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+}
 
-  }
+span.password-eye{
+  position: absolute;
+  right: 15px;
+  transform: translate(0, -50%);
+  top: 50%;
+  cursor: pointer;
+}
 
-  /* #check-form {
-      display: inline-block;
-  } */
-  /* Wrap your form in a div.
-  Set the div's display to block and text-align to center (this will center the contained form).
-  Set the form's display to inline-block (auto-sizes to content), left and right margins to auto (centers it horizontally), and text-align to left (or else its children will be center-aligned too).
-   */
+.fa{
+  position: absolute; 
+  right: 50px; 
+  top: 109px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #9999;
+}
 
-  .form-control {
-      /* padding-bottom: 2rem; */
-      border: none;
-      border-bottom: solid #555555 1px;
-  }
-
-  .card-body.login-card-body {
-      width: 20rem;
-      margin-left: auto;
-      margin-right:auto;
-  }
-
-  a {
-    color: #CD3471;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-  }
-  a:hover {
-      color:#07843A;
-  }
-
-  #login-btn {
-    background-color: white;
-    color: #555555;
-    border: 2px solid #07843A;
-    border-radius: 25px;
-    transition-duration: 0.4s;
-
-  }
-
-  #login-btn:hover {
-    background-color: #07843A; /* Green */
-    color: white;
-
-  }
-  #login-button-area {
-      padding-top: 2rem
-  }
+.fa.active{
+  color: dodgerblue;
+}
 
 
-  #forgot-password {
-      padding-top: 10rem
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
