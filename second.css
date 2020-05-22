@@ -1,8 +1,20 @@
 /* 
+LETTER THE LAWN INFO:
+LETTER: #CD3471
+BLUE BACKGROUND:#50BDEF
+GREEN GRASS: #07843A
+PURPLE THE: #803275
+
+
+
+
 TITLE: #333333;
 GENERAL : #555555
 BACKDROP:  f2f2f2
 LOGIN BUTTON: 
+
+
+
 background: #6a7dfe;
   background: -webkit-linear-gradient(left, #21d4fd, #b721ff);
   background: -o-linear-gradient(left, #21d4fd, #b721ff);
@@ -12,6 +24,7 @@ background: #6a7dfe;
 
 .login-body {
     background-color: #f2f2f2;
+    color: #555555;
 }
 
 .col.login-col {
@@ -38,28 +51,38 @@ background: #6a7dfe;
     transform: translate(-50%, -50%);
   }
 
-  .login-title {
+  /* .login-title {
     display: block;
     font-size: 30px;
     color: #333333;
     line-height: 1.2;
     text-align: center;
-  }
+  } */
 
 
   #logo {
       display: block;
       margin-left: auto;
       margin-right:auto;
-      padding-top: 20px;
-      padding-bottom: 40px;
       width: auto;
-      height: 9rem;
+      height: 10rem;
   }
   
-  /* .login-form- {
-      color: red;
+  
+  #login-form {
+      display: block;
+      text-align: center;
+      padding-top: 4rem;
+
+  }
+
+  /* #check-form {
+      display: inline-block;
   } */
+  /* Wrap your form in a div.
+  Set the div's display to block and text-align to center (this will center the contained form).
+  Set the form's display to inline-block (auto-sizes to content), left and right margins to auto (centers it horizontally), and text-align to left (or else its children will be center-aligned too).
+   */
 
   .form-control {
       /* padding-bottom: 2rem; */
@@ -73,9 +96,34 @@ background: #6a7dfe;
       margin-right:auto;
   }
 
+  a {
+    color: #CD3471;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+  a:hover {
+      color:#07843A;
+  }
+
+  #login-btn {
+    background-color: white;
+    color: #555555;
+    border: 2px solid #07843A;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+
+  }
+
+  #login-btn:hover {
+    background-color: #07843A; /* Green */
+    color: white;
+
+  }
   #login-button-area {
       padding-top: 2rem
   }
+
 
   #forgot-password {
       padding-top: 10rem
